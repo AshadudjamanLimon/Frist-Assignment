@@ -43,3 +43,50 @@
     left: 1236px;
     top: 599px;
 }
+
+/* second banner style */
+.nav {}
+
+.my {
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 849px;
+    top: 1176px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.contrary {
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 849px;
+    top: 1294px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.mark {
+    position: absolute;
+    height: 24px;
+    left: 849px;
+    top: 1400px;
+}
+
+.img {
+    margin-left: 193px;
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+      
+}
