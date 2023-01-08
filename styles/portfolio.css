@@ -2,91 +2,151 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* banner styles */
-.banner {
-    position: absolute;
-    width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 216px;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    text-align: right;
-    color: #151414;
+/* banner */
+.main-banner {
+    background-image: url(../images/banner/banner2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
-.paragraph {
-    position: absolute;
-    width: 494px;
-    height: 78px;
-    left: 876px;
-    top: 468px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: right;
+.limon {
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.limon h1 {
+    font-size: 65px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700px;
+    color: #151414;
+
+}
+
+.limon p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400px;
     color: #444343;
 }
 
-.btn {
+.limon button {
+    width: 160px;
     height: 64px;
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: none;
+    left: 1210px;
+    top: 578px;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
-    text-align: right;
-    padding: 15px 20px;
-    position: absolute;
-    left: 1236px;
-    top: 599px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
 }
 
 /* second banner style */
-.nav {}
 
-.my {
-    position: absolute;
-    width: 288px;
-    height: 94px;
-    left: 849px;
-    top: 1176px;
-
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #151414;
+.limon-second {
+    display: flex;
+    margin: 200px 300px;
+    align-items: center;
 }
 
-.contrary {
-    position: absolute;
+.margin {
     width: 416px;
-    height: 104px;
-    left: 849px;
-    top: 1294px;
-    font-family: 'Work Sans';
-    font-style: normal;
+    height: 400px;
+    left: 862px;
+    top: 1168px;
+}
+
+.margin h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.margin p,
+ul {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     color: #444343;
 }
 
-.mark {
-    position: absolute;
-    height: 24px;
-    left: 849px;
-    top: 1400px;
+.div-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 100px;
 }
 
-.img {
-    margin-left: 193px;
-    margin-top: 100px;
+.plan-container {
     display: flex;
-    position: absolute;
-      
+    margin: 0 230px;
+    gap: 90px;
+    margin-bottom: 220px;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+/* Third-Banner-Style */
+.banner-two {
+    background-image: url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-left: 225px;
+    padding-left: 64px;
+    background-repeat: no-repeat;
+}
+
+.positive {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+   
+}
+
+.call {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 35px;
+}
+.head-two{
+    margin: 60px;
+}
+.footer{
+    background-color: #151414;
+   color: #FFFFFF;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.footer-one{
+    width: 50%;
+    padding: 100px;
+}
+.footer-two{
+    width: 50%;
+    color: #FFFFFF;
+    padding: 100px;
+    
+}
+.input-box{
+    color: white;
+    
 }
