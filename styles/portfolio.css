@@ -5,7 +5,7 @@
 /* banner */
 .main-banner {
     background-image: url(../images/banner/banner2.png);
-    height: 100vh;
+    height: 120vh;
     background-repeat: no-repeat;
 }
 
@@ -46,7 +46,7 @@
 
 .limon-second {
     display: flex;
-    margin: 200px 300px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
