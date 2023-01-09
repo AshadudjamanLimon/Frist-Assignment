@@ -86,6 +86,7 @@ ul {
     margin-bottom: 220px;
 
 }
+ 
 
 .plan-title {
     font-weight: 700;
@@ -116,7 +117,7 @@ ul {
     font-size: 40px;
     color: #FFFFFF;
 
-   
+
 }
 
 .call {
@@ -125,28 +126,23 @@ ul {
     font-size: 20px;
     color: #F15B22;
     padding: 20px 35px;
+    border-radius: 5px;
+    border: none;
 }
-.head-two{
+
+.head-two {
     margin: 60px;
 }
+/* Footer Styles */
 .footer{
-    background-color: #151414;
-   color: #FFFFFF;
     display: flex;
-    margin-top: 50px;
-    
-}
-.footer-one{
-    width: 50%;
-    padding: 100px;
-}
-.footer-two{
-    width: 50%;
+    gap: 330px;
+    background: #151414;
     color: #FFFFFF;
-    padding: 100px;
+    padding: 125px 230px;
+    margin-top: 130px;
     
 }
-.input-box{
-    color: white;
-    
+.footer .footer-one{
+    text-align: left;
 }
